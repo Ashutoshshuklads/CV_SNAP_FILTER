@@ -8,7 +8,8 @@ from pathlib import Path
  
 # Ensure src package is in path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
- 
+
+
 from src.config import (
     CAMERA_INDEX,
     CAMERA_WIDTH,
